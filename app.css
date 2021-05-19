@@ -1,3 +1,7 @@
+body {
+    background-color: #b7e4c7;
+}
+
 #problemForm {
   margin: 10px auto;
   background-color: #1b4332;
@@ -22,7 +26,21 @@
   justify-content: center;
 }
 
-.truckDiv {
+.neutralDiv {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border: 1px black solid;
+}
+
+.correctDiv {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border: 1px black solid;
+}
+
+.incorrectDiv {
   width: 20px;
   height: 20px;
   background-color: red;
