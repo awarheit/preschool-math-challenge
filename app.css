@@ -1,0 +1,30 @@
+#problemForm {
+  margin: 10px auto;
+  background-color: #1b4332;
+  padding: 50px 20px;
+  width: 50%;
+}
+
+#answerField {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#problemForm h2 {
+  color: #d8f3dc;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.truckDiv {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border: 1px black solid;
+}
