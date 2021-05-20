@@ -1,5 +1,6 @@
 body {
   background-image: url(Photos/skyBackground.jpg);
+  background-size: cover;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h1 {
 }
 
 #problemForm h2 {
-  color: #d8f3dc;
+  color: #2f7761;
   margin: 20px auto;
   font-size: 80px;
   z-index: 9;
@@ -167,4 +168,43 @@ h1 {
   border-top-right-radius: 200px;
   border: 50px solid #cdb4dbaa;
   border-bottom: 0;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  background-color: #03045e;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer p {
+  color: white;
+  height: fit-content;
+  margin: 0;
+}
+
+#backgroundPhotoAtt {
+  font-size: 12px;
+  text-align: center;
+}
+
+#backgroundPhotoAtt a {
+  text-decoration: none;
+  color: #bde0fe;
+}
+
+#creatorInfo {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px auto 15px;
+}
+
+#creatorInfo a {
+  text-decoration: none;
+  color: #bde0fe;
 }
