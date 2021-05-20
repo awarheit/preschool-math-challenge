@@ -1,19 +1,22 @@
 body {
-  background-color: #b7e4c7;
+  background-image: url(Photos/skyBackground.jpg);
 }
 
 h1 {
   text-align: center;
+  z-index: 9;
+  color: #03045e;
+  font-size: 50px;
 }
 
 #problemForm {
   margin: 10px auto;
-  background-color: #1b4332;
   padding: 50px 20px;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  z-index: 9;
 }
 
 #answerField {
@@ -22,12 +25,15 @@ h1 {
   font-size: 50px;
   text-align: center;
   margin: 20px auto;
+  z-index: 9;
+  background-color: #e3e7e9;
 }
 
 #problemForm h2 {
   color: #d8f3dc;
   margin: 20px auto;
-  font-size: 2.5rem;
+  font-size: 80px;
+  z-index: 9;
 }
 
 #submitButton {
@@ -39,6 +45,7 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  z-index: 9;
 }
 
 #submitButton:hover {
@@ -55,54 +62,109 @@ h1 {
   width: 40px;
   height: 40px;
   background-color: transparent;
-  border: 1px black solid;
 }
 
 .correctDiv0 {
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border: 1px black solid;
+  width: 1000px;
+  height: 500px;
+  background-color: transparent;
+  position: absolute;
+  top: 200px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border: 50px solid #f94144aa;
+  border-bottom: 0;
 }
 
 .correctDiv1 {
-  width: 40px;
-  height: 40px;
-  background-color: orange;
-  border: 1px black solid;
+  width: 900px;
+  height: 450px;
+  background-color: transparent;
+  position: absolute;
+  top: 250px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 450px;
+  border-top-right-radius: 450px;
+  border: 50px solid #f3722caa;
+  border-bottom: 0;
 }
 
 .correctDiv2 {
-  width: 40px;
-  height: 40px;
-  background-color: yellow;
-  border: 1px black solid;
+  width: 800px;
+  height: 400px;
+  background-color: transparent;
+  position: absolute;
+  top: 300px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  border: 50px solid #f9c74faa;
+  border-bottom: 0;
 }
 
 .correctDiv3 {
-  width: 40px;
-  height: 40px;
-  background-color: green;
-  border: 1px black solid;
+  width: 700px;
+  height: 350px;
+  background-color: transparent;
+  position: absolute;
+  top: 350px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 350px;
+  border-top-right-radius: 350px;
+  border: 50px solid #43aa8baa;
+  border-bottom: 0;
 }
 
 .correctDiv4 {
-  width: 40px;
-  height: 40px;
-  background-color: blue;
-  border: 1px black solid;
+  width: 600px;
+  height: 300px;
+  background-color: transparent;
+  position: absolute;
+  top: 400px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border: 50px solid #277da1aa;
+  border-bottom: 0;
 }
 
 .correctDiv5 {
-  width: 40px;
-  height: 40px;
-  background-color: indigo;
-  border: 1px black solid;
+  width: 500px;
+  height: 250px;
+  background-color: transparent;
+  position: absolute;
+  top: 450px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  border: 50px solid #735d78aa;
+  border-bottom: 0;
 }
 
 .correctDiv6 {
-  width: 40px;
-  height: 40px;
-  background-color: violet;
-  border: 1px black solid;
+  width: 400px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  top: 500px;
+  margin: auto;
+  z-index: 7;
+  box-sizing: border-box;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border: 50px solid #cdb4dbaa;
+  border-bottom: 0;
 }

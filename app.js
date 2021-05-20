@@ -8,7 +8,7 @@ function newProblem() {
   problemNum1 = makeRandNum();
   problemNum2 = makeRandNum();
   const problem = document.querySelector("#problem");
-  problem.innerText = `What is ${problemNum1} + ${problemNum2}?`;
+  problem.innerText = `${problemNum1} + ${problemNum2} =`;
   answerField.value = "";
 }
 newProblem();
