@@ -8,6 +8,7 @@
     background-color: #f00;
     position: absolute;
     z-index: 1;
+    border-radius: 50%;
   }
   #o {
     height: 76vw;
@@ -17,6 +18,7 @@
     top: 2vw;
     left: 2vw;
     z-index: 2;
+    border-radius: 50%;
   }
   #y {
     height: 72vw;
@@ -26,6 +28,7 @@
     top: 4vw;
     left: 4vw;
     z-index: 3;
+    border-radius: 50%;
   }
   #g {
     height: 68vw;
@@ -35,6 +38,7 @@
     top: 6vw;
     left: 6vw;
     z-index: 4;
+    border-radius: 50%;
   }
   #b {
     height: 64vw;
@@ -44,6 +48,7 @@
     top: 8vw;
     left: 8vw;
     z-index: 5;
+    border-radius: 50%;
   }
   #i {
     height: 60vw;
@@ -53,6 +58,7 @@
     top: 10vw;
     left: 10vw;
     z-index: 6;
+    border-radius: 50%;
   }
   #v {
     height: 56vw;
@@ -62,4 +68,5 @@
     top: 12vw;
     left: 12vw;
     z-index: 7;
+    border-radius: 50%;
   }

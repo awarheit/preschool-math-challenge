@@ -54,20 +54,55 @@ h1 {
 .neutralDiv {
   width: 40px;
   height: 40px;
-  background-color: grey;
+  background-color: transparent;
   border: 1px black solid;
 }
 
-.correctDiv {
+.correctDiv0 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border: 1px black solid;
+}
+
+.correctDiv1 {
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  border: 1px black solid;
+}
+
+.correctDiv2 {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border: 1px black solid;
+}
+
+.correctDiv3 {
   width: 40px;
   height: 40px;
   background-color: green;
   border: 1px black solid;
 }
 
-.incorrectDiv {
+.correctDiv4 {
   width: 40px;
   height: 40px;
-  background-color: red;
+  background-color: blue;
+  border: 1px black solid;
+}
+
+.correctDiv5 {
+  width: 40px;
+  height: 40px;
+  background-color: indigo;
+  border: 1px black solid;
+}
+
+.correctDiv6 {
+  width: 40px;
+  height: 40px;
+  background-color: violet;
   border: 1px black solid;
 }
