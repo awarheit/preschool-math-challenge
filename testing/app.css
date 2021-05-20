@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #r {
+    height: 80vw;
+    width: 80vw;
+    background-color: #f00;
+    position: absolute;
+    z-index: 1;
+  }
+  #o {
+    height: 76vw;
+    width: 76vw;
+    background-color: #fe6230;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    z-index: 2;
+  }
+  #y {
+    height: 72vw;
+    width: 72vw;
+    background-color: #fef600;
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+    z-index: 3;
+  }
+  #g {
+    height: 68vw;
+    width: 68vw;
+    background-color: #00bc00;
+    position: absolute;
+    top: 6vw;
+    left: 6vw;
+    z-index: 4;
+  }
+  #b {
+    height: 64vw;
+    width: 64vw;
+    background-color: #0048fe;
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+    z-index: 5;
+  }
+  #i {
+    height: 60vw;
+    width: 60vw;
+    background-color: #000083;
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    z-index: 6;
+  }
+  #v {
+    height: 56vw;
+    width: 56vw;
+    background-color: #30009b;
+    position: absolute;
+    top: 12vw;
+    left: 12vw;
+    z-index: 7;
+  }

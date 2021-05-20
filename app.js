@@ -3,8 +3,6 @@ function makeRandNum() {
 }
 // Change "20" above to different max num to adjust difficulty
 
-var problemNum1 = 3;
-var problemNum2 = 2;
 
 function newProblem() {
   problemNum1 = makeRandNum();
