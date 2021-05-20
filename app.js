@@ -42,18 +42,50 @@ problemForm.addEventListener("submit", function (e) {
               } else {
                 if (divObject[6].classList.contains("neutralDiv")) {
                   divObject[6].classList.replace("neutralDiv", "correctDiv");
-                 // INSERT WHATEVER YOU WANT TO HAPPEN AFTER THEY WIN HERE!//
+                  alert("You win!");
                 } else {
-                    alert("you already won!");
+                  alert("you already won!");
                 }
               }
             }
           }
         }
       }
-    } 
+    }
   } else {
-    alert("Wrong-o!");
+    const divContainer = document.querySelector("#divContainer");
+    const divObject = divContainer.children;
+    if (divObject[0].classList.contains("neutralDiv")) {
+      alert("Try again!");
+    } else {
+      if (divObject[6].classList.contains("correctDiv")) {
+        divObject[6].classList.replace("correctDiv", "neutralDiv");
+      } else {
+        if (divObject[5].classList.contains("correctDiv")) {
+          divObject[5].classList.replace("correctDiv", "neutralDiv");
+        } else {
+          if (divObject[4].classList.contains("correctDiv")) {
+            divObject[4].classList.replace("correctDiv", "neutralDiv");
+          } else {
+            if (divObject[3].classList.contains("correctDiv")) {
+              divObject[3].classList.replace("correctDiv", "neutralDiv");
+            } else {
+              if (divObject[2].classList.contains("correctDiv")) {
+                divObject[2].classList.replace("correctDiv", "neutralDiv");
+              } else {
+                if (divObject[1].classList.contains("correctDiv")) {
+                  divObject[1].classList.replace("correctDiv", "neutralDiv");
+                } else {
+                  if (divObject[0].classList.contains("correctDiv")) {
+                    divObject[0].classList.replace("correctDiv", "neutralDiv");
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
   newProblem();
 });
