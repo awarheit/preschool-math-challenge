@@ -70,7 +70,7 @@ h1 {
   height: 500px;
   background-color: transparent;
   position: absolute;
-  top: 200px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
@@ -85,7 +85,7 @@ h1 {
   height: 450px;
   background-color: transparent;
   position: absolute;
-  top: 250px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
@@ -100,7 +100,7 @@ h1 {
   height: 400px;
   background-color: transparent;
   position: absolute;
-  top: 300px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
@@ -115,7 +115,7 @@ h1 {
   height: 350px;
   background-color: transparent;
   position: absolute;
-  top: 350px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
@@ -130,7 +130,7 @@ h1 {
   height: 300px;
   background-color: transparent;
   position: absolute;
-  top: 400px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
@@ -145,7 +145,7 @@ h1 {
   height: 250px;
   background-color: transparent;
   position: absolute;
-  top: 450px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
@@ -160,7 +160,7 @@ h1 {
   height: 200px;
   background-color: transparent;
   position: absolute;
-  top: 500px;
+  bottom: 200px;
   margin: auto;
   z-index: 7;
   box-sizing: border-box;
