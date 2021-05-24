@@ -1,6 +1,8 @@
 body {
+  background-color: #4587BF;
   background-image: url(Photos/skyBackground.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
